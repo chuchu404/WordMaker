@@ -20,6 +20,28 @@ WordMaker 是一个自动批量生成word的工具，实现了从word模板生�
 
 
 
+## options
+
+| key                   | selections                    | note                         |
+| --------------------- | ----------------------------- | ---------------------------- |
+| default_marking_color | 红色,黑色,蓝色,金色,绿色,黄色 | 支持识别模板标记的颜色       |
+| default_api           | kWPS,WPS,Office               | 支持wps和office应用(默认wps) |
+
+### attention
+
+如果你的电脑上是使用wps就勾选kWPS或者WPS, 最好使用正式版本。
+
+如果你的电脑上只有office word，没有安装wps，请在设置页面切换成office选项。
+
+
+
+## functions
+
+- excel to word
+- word to PDF
+
+
+
 ## screenshot
 
 ![image-20230604115254357](READMEPics/image-20230604115254357.png)
@@ -30,3 +52,9 @@ WordMaker 是一个自动批量生成word的工具，实现了从word模板生�
 
 ![image-20230604115320740](READMEPics/image-20230604115320740.png)
 
+
+
+## futures
+
+- 多线程
+- 全自动化
