@@ -1,0 +1,6 @@
+/dist
+
+/venv
+
+*.ini
+
